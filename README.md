@@ -6,6 +6,7 @@ Air bubbles produce a high gradient effect at the edge of the bubble where the l
 
 Detecting non-uniform tissue sizes is even easier.  Applying the Scikit-image camera filter with OTSU filter threshold selects only the high intensity parts of the image and ignores the background which shows up as the solid black region at the edge of the image.  If the area of this filtered image is smaller than the expected size of the tissue slice, the image has had a corner of the image compromised by the curl obstruction to the camera.
 
+
 ## Instructions
 This script depends on the following packages:
 - Pandas
